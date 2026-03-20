@@ -316,7 +316,7 @@ export default function Hero() {
                   fontWeight: 600,
                 }}
               >
-                Sejak 1987 · Dipercaya Jutaan Pelanggan
+                Sejak 2020 · Dipercaya Jutaan Pelanggan
               </span>
             </div>
 

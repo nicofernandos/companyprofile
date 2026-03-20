@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link, useLocation } from "react-router-dom";
-
 const NAV_LINKS = [
   { label: "Beranda", href: "/", section: null, isRoute: true },
   { label: "Tentang", href: "#about", section: "about" },
@@ -13,8 +12,6 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
-
-  /* ── Glassmorphism saat scroll ── */
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -321,7 +318,6 @@ export default function Navbar() {
         <div className="hj-nav-inner">
           {/* Brand */}
           <Link className="hj-brand" to="/" onClick={() => setMenuOpen(false)}>
-            <div className="hj-brand-icon">src</div>
             <div className="hj-brand-text">
               <span className="hj-brand-pt">PT</span>
               <span className="hj-brand-name">Helton Jaya</span>

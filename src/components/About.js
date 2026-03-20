@@ -7,22 +7,18 @@ const STATS = [
 
 const VALUES = [
   {
-    icon: "🌱",
     title: "Bahan Alami Pilihan",
     desc: "Setiap rempah dipilih langsung dari petani lokal terpercaya di seluruh Nusantara untuk menjamin kualitas dan keaslian khasiat.",
   },
   {
-    icon: "⚗️",
     title: "Standar Produksi GMP",
     desc: "Proses produksi kami bersertifikat Good Manufacturing Practice, memastikan setiap produk higienis, aman, dan konsisten.",
   },
   {
-    icon: "🛡️",
     title: "Halal & Tersertifikasi BPOM",
     desc: "Seluruh lini produk telah mendapatkan sertifikasi halal MUI dan izin edar BPOM, sehingga aman dikonsumsi keluarga.",
   },
   {
-    icon: "🤝",
     title: "Warisan & Inovasi",
     desc: "Kami memadukan kearifan lokal resep jamu leluhur dengan riset modern agar khasiatnya tetap relevan di era kini.",
   },
@@ -236,7 +232,7 @@ export default function About() {
               margin: "0 auto",
             }}
           >
-            Berdiri sejak 1987, PT Helton Jaya telah mengabdikan diri pada
+            Berdiri sejak 2020, PT Helton Jaya telah mengabdikan diri pada
             pelestarian kearifan herbal Nusantara dengan sentuhan ilmu
             pengetahuan modern.
           </p>
@@ -376,7 +372,6 @@ export default function About() {
               {[
                 {
                   label: "Visi",
-                  icon: "🔭",
                   color: "#2e7d32",
                   bg: "rgba(46,125,50,0.06)",
                   border: "rgba(46,125,50,0.2)",
@@ -384,7 +379,6 @@ export default function About() {
                 },
                 {
                   label: "Misi",
-                  icon: "🎯",
                   color: "#b5820a",
                   bg: "rgba(212,167,56,0.07)",
                   border: "rgba(212,167,56,0.25)",
@@ -403,23 +397,6 @@ export default function About() {
                     alignItems: "flex-start",
                   }}
                 >
-                  <div
-                    style={{
-                      fontSize: 22,
-                      flexShrink: 0,
-                      marginTop: 2,
-                      width: 40,
-                      height: 40,
-                      borderRadius: 10,
-                      background: "#fff",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                    }}
-                  >
-                    {item.icon}
-                  </div>
                   <div>
                     <div
                       style={{
@@ -524,26 +501,6 @@ export default function About() {
                     borderRadius: "18px 18px 0 0",
                   }}
                 />
-
-                <div
-                  style={{
-                    fontSize: 28,
-                    marginBottom: 14,
-                    marginTop: 4,
-                    width: 48,
-                    height: 48,
-                    borderRadius: 12,
-                    background:
-                      i % 2 === 0
-                        ? "rgba(76,175,80,0.1)"
-                        : "rgba(212,167,56,0.1)",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  {v.icon}
-                </div>
 
                 <h4
                   style={{

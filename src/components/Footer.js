@@ -4,21 +4,16 @@ const FOOTER_LINKS = {
     { label: "Jamu Pencernaan", href: "#katalog" },
     { label: "Jamu Imunitas", href: "#katalog" },
     { label: "Jamu Kecantikan", href: "#katalog" },
-    { label: "Paket Grosir", href: "#contact" },
   ],
   Perusahaan: [
     { label: "Tentang Kami", href: "#about" },
     { label: "Visi & Misi", href: "#about" },
     { label: "Katalog Produk", href: "#katalog" },
     { label: "Hubungi Kami", href: "#contact" },
-    { label: "Karir", href: "#" },
   ],
   Sertifikasi: [
     { label: "Halal MUI", href: "#" },
     { label: "Izin BPOM", href: "#" },
-    { label: "Standar GMP", href: "#" },
-    { label: "ISO 9001:2015", href: "#" },
-    { label: "SNI Herbal", href: "#" },
   ],
 };
 
@@ -249,7 +244,7 @@ export default function Footer() {
                 maxWidth: 280,
               }}
             >
-              Produsen jamu tradisional modern sejak 1987. Menghadirkan khasiat
+              Produsen jamu tradisional modern sejak 2020. Menghadirkan khasiat
               herbal Nusantara untuk kesehatan dan vitalitas keluarga Indonesia.
             </p>
 
